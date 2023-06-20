@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0EE69C2A40602400AEBC72 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE69B2A40602400AEBC72 /* ApiManager.swift */; };
+		0B0EE69E2A407F0900AEBC72 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE69D2A407F0900AEBC72 /* User.swift */; };
+		0B0EE6AB2A40C87900AEBC72 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE6AA2A40C87900AEBC72 /* MenuViewController.swift */; };
 		0B3287C62A3B50ED0028B71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3287C52A3B50ED0028B71D /* AppDelegate.swift */; };
 		0B3287C82A3B50ED0028B71D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3287C72A3B50ED0028B71D /* SceneDelegate.swift */; };
 		0B3287CA2A3B50ED0028B71D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3287C92A3B50ED0028B71D /* ViewController.swift */; };
-		0B3287CD2A3B50ED0028B71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3287CB2A3B50ED0028B71D /* Main.storyboard */; };
 		0B3287CF2A3B50EE0028B71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3287CE2A3B50EE0028B71D /* Assets.xcassets */; };
-		0B3287D22A3B50EE0028B71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3287D02A3B50EE0028B71D /* LaunchScreen.storyboard */; };
+		0B9CE9882A41B6360037DA80 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9CE9872A41B6360037DA80 /* CartItem.swift */; };
+		0BD789A22A3DB35E00E6DA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BD789A12A3DB35E00E6DA6F /* Main.storyboard */; };
+		0BD789A42A3DEDBE00E6DA6F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD789A32A3DEDBE00E6DA6F /* LogInViewController.swift */; };
+		0BED5F312A3E1A7100172B4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BED5F302A3E1A7100172B4F /* Constants.swift */; };
+		0BED5F332A3E215600172B4F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BED5F322A3E215600172B4F /* RegisterViewController.swift */; };
+		54EB76DF9AA9F6266D03B930 /* Pods_Coffee_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4C18AF2F24B63E628CE36D /* Pods_Coffee_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0EE69B2A40602400AEBC72 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		0B0EE69D2A407F0900AEBC72 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0B0EE6AA2A40C87900AEBC72 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		0B3287C22A3B50ED0028B71D /* Coffee_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3287C52A3B50ED0028B71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B3287C72A3B50ED0028B71D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0B3287C92A3B50ED0028B71D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0B3287CC2A3B50ED0028B71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B3287CE2A3B50EE0028B71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0B3287D12A3B50EE0028B71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B3287D32A3B50EE0028B71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B9CE9872A41B6360037DA80 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		0BD789A12A3DB35E00E6DA6F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0BD789A32A3DEDBE00E6DA6F /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0BED5F302A3E1A7100172B4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0BED5F322A3E215600172B4F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2264933908EA246829BD17B0 /* Pods-Coffee_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee_app.debug.xcconfig"; path = "Target Support Files/Pods-Coffee_app/Pods-Coffee_app.debug.xcconfig"; sourceTree = "<group>"; };
+		6971D2A40DF50D637260496A /* Pods-Coffee_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee_app.release.xcconfig"; path = "Target Support Files/Pods-Coffee_app/Pods-Coffee_app.release.xcconfig"; sourceTree = "<group>"; };
+		ED4C18AF2F24B63E628CE36D /* Pods_Coffee_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EB76DF9AA9F6266D03B930 /* Pods_Coffee_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				0B3287C42A3B50ED0028B71D /* Coffee_app */,
 				0B3287C32A3B50ED0028B71D /* Products */,
+				17959BBA37FA45F4BF4CF2F1 /* Pods */,
+				1DE51382DFBBD3F3D61AFB61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,60 @@
 			children = (
 				0B3287C52A3B50ED0028B71D /* AppDelegate.swift */,
 				0B3287C72A3B50ED0028B71D /* SceneDelegate.swift */,
-				0B3287C92A3B50ED0028B71D /* ViewController.swift */,
-				0B3287CB2A3B50ED0028B71D /* Main.storyboard */,
+				0B0EE69D2A407F0900AEBC72 /* User.swift */,
+				0BED5F302A3E1A7100172B4F /* Constants.swift */,
+				0B3287DB2A3B90C00028B71D /* Model */,
+				0B3287D92A3B909E0028B71D /* View */,
+				0B3287DA2A3B90AC0028B71D /* Controllers */,
 				0B3287CE2A3B50EE0028B71D /* Assets.xcassets */,
-				0B3287D02A3B50EE0028B71D /* LaunchScreen.storyboard */,
 				0B3287D32A3B50EE0028B71D /* Info.plist */,
 			);
 			path = Coffee_app;
+			sourceTree = "<group>";
+		};
+		0B3287D92A3B909E0028B71D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BD789A12A3DB35E00E6DA6F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B3287DA2A3B90AC0028B71D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B3287C92A3B50ED0028B71D /* ViewController.swift */,
+				0BD789A32A3DEDBE00E6DA6F /* LogInViewController.swift */,
+				0BED5F322A3E215600172B4F /* RegisterViewController.swift */,
+				0B0EE6AA2A40C87900AEBC72 /* MenuViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B3287DB2A3B90C00028B71D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B0EE69B2A40602400AEBC72 /* ApiManager.swift */,
+				0B9CE9872A41B6360037DA80 /* CartItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17959BBA37FA45F4BF4CF2F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2264933908EA246829BD17B0 /* Pods-Coffee_app.debug.xcconfig */,
+				6971D2A40DF50D637260496A /* Pods-Coffee_app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1DE51382DFBBD3F3D61AFB61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED4C18AF2F24B63E628CE36D /* Pods_Coffee_app.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B3287D62A3B50EE0028B71D /* Build configuration list for PBXNativeTarget "Coffee_app" */;
 			buildPhases = (
+				D6BD2B50869229077A72F924 /* [CP] Check Pods Manifest.lock */,
 				0B3287BE2A3B50ED0028B71D /* Sources */,
 				0B3287BF2A3B50ED0028B71D /* Frameworks */,
 				0B3287C02A3B50ED0028B71D /* Resources */,
+				B0090E2125AD10E7C355D03E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,45 +193,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B3287D22A3B50EE0028B71D /* LaunchScreen.storyboard in Resources */,
+				0BD789A22A3DB35E00E6DA6F /* Main.storyboard in Resources */,
 				0B3287CF2A3B50EE0028B71D /* Assets.xcassets in Resources */,
-				0B3287CD2A3B50ED0028B71D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0090E2125AD10E7C355D03E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee_app/Pods-Coffee_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee_app/Pods-Coffee_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coffee_app/Pods-Coffee_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BD2B50869229077A72F924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coffee_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B3287BE2A3B50ED0028B71D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BED5F312A3E1A7100172B4F /* Constants.swift in Sources */,
+				0BD789A42A3DEDBE00E6DA6F /* LogInViewController.swift in Sources */,
 				0B3287CA2A3B50ED0028B71D /* ViewController.swift in Sources */,
+				0B0EE69C2A40602400AEBC72 /* ApiManager.swift in Sources */,
+				0B0EE6AB2A40C87900AEBC72 /* MenuViewController.swift in Sources */,
+				0B0EE69E2A407F0900AEBC72 /* User.swift in Sources */,
+				0BED5F332A3E215600172B4F /* RegisterViewController.swift in Sources */,
 				0B3287C62A3B50ED0028B71D /* AppDelegate.swift in Sources */,
+				0B9CE9882A41B6360037DA80 /* CartItem.swift in Sources */,
 				0B3287C82A3B50ED0028B71D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0B3287CB2A3B50ED0028B71D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B3287CC2A3B50ED0028B71D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0B3287D02A3B50EE0028B71D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B3287D12A3B50EE0028B71D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0B3287D42A3B50EE0028B71D /* Debug */ = {
@@ -282,6 +379,7 @@
 		};
 		0B3287D72A3B50EE0028B71D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2264933908EA246829BD17B0 /* Pods-Coffee_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +412,7 @@
 		};
 		0B3287D82A3B50EE0028B71D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6971D2A40DF50D637260496A /* Pods-Coffee_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
