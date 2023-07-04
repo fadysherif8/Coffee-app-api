@@ -18,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="49" translatesAutoresizingMaskIntoConstraints="NO" id="jE3-4X-4W2">
-                                <rect key="frame" x="67" y="254" width="256" height="336"/>
+                                <rect key="frame" x="67" y="244.66666666666663" width="256" height="355"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="espresso" translatesAutoresizingMaskIntoConstraints="NO" id="8ER-W0-05J">
                                         <rect key="frame" x="0.0" y="0.0" width="256" height="256"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWS-s4-T21" customClass="CLTypingLabel" customModule="CLTypingLabel">
-                                        <rect key="frame" x="102.33333333333333" y="305" width="51.333333333333329" height="31"/>
+                                        <rect key="frame" x="102.33333333333333" y="305" width="51.333333333333329" height="50"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
                                         <color key="textColor" systemColor="systemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -63,7 +63,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6Fy-HY-yMb">
                                 <rect key="frame" x="73.666666666666686" y="584.66666666666663" width="243" height="95"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGc-DE-Wo1">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGc-DE-Wo1">
                                         <rect key="frame" x="0.0" y="0.0" width="243" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="243" id="JIu-Fp-V4j"/>
@@ -182,6 +182,7 @@
                     </view>
                     <connections>
                         <outlet property="emailField" destination="ean-tk-fkt" id="kYc-do-iiB"/>
+                        <outlet property="logInOutlet" destination="CGc-DE-Wo1" id="J2B-uV-99H"/>
                         <outlet property="passwordField" destination="xf6-CY-xDk" id="olL-Jt-Rax"/>
                         <segue destination="m5p-Gj-TR5" kind="presentation" identifier="goToRegister" id="t39-7i-Hkg"/>
                         <segue destination="kd9-9v-HGD" kind="presentation" identifier="goToMenu" modalPresentationStyle="fullScreen" id="8oq-Oq-02m"/>
@@ -267,10 +268,11 @@
                                 <color key="textColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Rw-67-3m4">
-                                <rect key="frame" x="145.33333333333334" y="600" width="99.666666666666657" height="45"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Rw-67-3m4">
+                                <rect key="frame" x="95" y="599" width="200" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="2sN-9G-QVb"/>
+                                    <constraint firstAttribute="width" constant="200" id="AoI-Nz-RHj"/>
+                                    <constraint firstAttribute="height" constant="50" id="IGd-45-JGX"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign Up">
@@ -287,17 +289,18 @@
                         <color key="backgroundColor" red="1" green="0.90661757909999996" blue="0.80288889689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="1mX-cp-zMU" firstAttribute="centerY" secondItem="ptU-Nz-iU9" secondAttribute="centerY" id="4BY-ae-dFm"/>
-                            <constraint firstItem="8Rw-67-3m4" firstAttribute="top" secondItem="1mX-cp-zMU" secondAttribute="bottom" constant="50" id="8PY-za-2au"/>
-                            <constraint firstItem="8Rw-67-3m4" firstAttribute="centerX" secondItem="ptU-Nz-iU9" secondAttribute="centerX" id="8d7-Nr-G0x"/>
                             <constraint firstItem="Pb7-cD-tuZ" firstAttribute="centerX" secondItem="ptU-Nz-iU9" secondAttribute="centerX" id="Ss0-er-xyG"/>
                             <constraint firstItem="1mX-cp-zMU" firstAttribute="top" secondItem="Pb7-cD-tuZ" secondAttribute="bottom" constant="30" id="eOq-Gt-XVS"/>
                             <constraint firstItem="1mX-cp-zMU" firstAttribute="centerX" secondItem="ptU-Nz-iU9" secondAttribute="centerX" id="hLz-3a-kdp"/>
+                            <constraint firstItem="8Rw-67-3m4" firstAttribute="top" secondItem="1mX-cp-zMU" secondAttribute="bottom" constant="49" id="mD1-JD-pLY"/>
+                            <constraint firstItem="8Rw-67-3m4" firstAttribute="centerX" secondItem="ptU-Nz-iU9" secondAttribute="centerX" id="z96-k2-6RX"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="emailField" destination="j2z-FB-qHx" id="TNc-oD-Ajq"/>
                         <outlet property="passField" destination="C5g-A9-Mco" id="gVE-P4-e6W"/>
                         <outlet property="rePassField" destination="1Qf-sI-6Ya" id="frO-a3-zEh"/>
+                        <outlet property="registerOutlet" destination="8Rw-67-3m4" id="cgW-S8-4y5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yIM-fG-v4t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -337,9 +340,7 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="WWS-s4-T21">
-            <size key="intrinsicContentSize" width="51.333333333333336" height="31"/>
-        </designable>
+        <designable name="WWS-s4-T21"/>
     </designables>
     <resources>
         <image name="cappuccino" width="256" height="256"/>

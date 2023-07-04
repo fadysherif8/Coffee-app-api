@@ -13,8 +13,10 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var passField: UITextField!
     @IBOutlet weak var rePassField: UITextField!
     
+    @IBOutlet weak var registerOutlet: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        registerOutlet.layer.cornerRadius = registerOutlet.frame.height/2
     }
     
     @IBAction func registerButton(_ sender: UIButton) {

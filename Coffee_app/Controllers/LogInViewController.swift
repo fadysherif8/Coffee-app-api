@@ -13,8 +13,10 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    @IBOutlet weak var logInOutlet: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        logInOutlet.layer.cornerRadius = logInOutlet.frame.height/2
     }
     
     @IBAction func logInButton(_ sender: UIButton) {
@@ -38,4 +40,7 @@ class LogInViewController: UIViewController {
     @IBAction func registerButton(_ sender: UIButton) {
         self.performSegue(withIdentifier: K.Segues.registerVC, sender: self)
     }
+}
+extension LogInViewController {
+    
 }
